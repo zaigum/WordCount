@@ -1,15 +1,13 @@
 // background.js
 
-// Event listener for when the extension is installed or updated
-chrome.runtime.onInstalled.addListener(function() {
-  // Do any necessary initialization here
+ chrome.runtime.onInstalled.addListener(function() {
+  
   console.log("Extension installed or updated");
 });
 
-// Event listener for when the extension icon is clicked
+ 
 chrome.browserAction.onClicked.addListener(function(tab) {
-  // Open the extension's popup window when the icon is clicked
-  chrome.action.openPopup();
+   chrome.action.openPopup();
 });
 
 // Example of sending a message to a content script
