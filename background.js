@@ -21,4 +21,4 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
   }
 });
 
-// Other background tasks and functionality can be added here
+ 
