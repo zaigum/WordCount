@@ -1,8 +1,6 @@
-// contentScript.js
 
 function countWords() {
-  const paragraphs = document.querySelectorAll('p'); // Yeh selector web page ke paragraphs ko select karega
-  // Change this selector to match the paragraphs on the webpage.
+  const paragraphs = document.querySelectorAll('p');  
   let wordCount = 0;
 
   paragraphs.forEach((paragraph) => {
